@@ -45,16 +45,6 @@ const Activities = ({ items = [], type, primColor }) => {
   return (
     <div
       className="activites-container"
-      // style={{
-      //   display: "flex",
-      //   flexDirection: "column",
-      //   alignItems: "center",
-      //   width: "100%",
-      //   overflow: "scroll",
-      //   marginTop: "0px",
-      //   height: "100%",
-      //   paddingBottom: "50%"
-      // }}
     >
       <FullScreenLoader show={showLoader} />
       {showDets ? (
@@ -62,25 +52,11 @@ const Activities = ({ items = [], type, primColor }) => {
       ) : (
         <div
           className="activities-feed-container"
-          // style={{
-          //   width: "100%",
-          //   display: "flex",
-          //   flexDirection: "column",
-          //   alignItems: "center",
-          //   justifyContent: "center"
-          // }}
         >
           {type === "activity" && keysAc.length
             ? keysAc.map((date) => (
                 <div
                   className="activities-map"
-                  // style={{
-                  //   width: "100%",
-                  //   display: "flex",
-                  //   flexDirection: "column",
-                  //   alignItems: "center",
-                  //   justifyContent: "center"
-                  // }}
                 >
                   <p>{moment(date).format("DD MMM YYYY, dddd")}</p>
                   {byDateAc[date].map((item) => (
@@ -99,13 +75,6 @@ const Activities = ({ items = [], type, primColor }) => {
             ? keysAr.map((date) => (
                 <div
                   className="activities-map"
-                  // style={{
-                  //   width: "100%",
-                  //   display: "flex",
-                  //   flexDirection: "column",
-                  //   alignItems: "center",
-                  //   justifyContent: "center"
-                  // }}
                 >
                   <p>{moment(date).format("DD MMM YYYY, dddd")}</p>
                   {byDateAr[date].map((item) => (
