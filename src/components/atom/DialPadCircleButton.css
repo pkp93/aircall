@@ -1,0 +1,13 @@
+.dial-pad-button-container {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 40px;
+  bottom: 15%;
+  border-radius: 25px;
+  border-radius: 30px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}

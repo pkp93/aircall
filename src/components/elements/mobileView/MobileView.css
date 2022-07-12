@@ -1,0 +1,35 @@
+.mobile-container {
+  /* display: flex; */
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mobile-dial-pad-container {
+  display: flex;
+  width: 100vw;
+  position: absolute;
+}
+
+.mobile-activities-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+  overflow-y: hidden;
+}
+
+/*.tab-style {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.flex-w100 {
+  display: flex;
+  width: 100%;
+} */
